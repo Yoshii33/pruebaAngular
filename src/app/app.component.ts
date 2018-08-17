@@ -5,5 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: 'app/app.component.html'
 })
 export class AppComponent  { 
-  appTitle : string = "Dorothy & Leona West"
+  appTitle : string = "Dorothy & Leona West";
+  appStatus : boolean = true;
  }
